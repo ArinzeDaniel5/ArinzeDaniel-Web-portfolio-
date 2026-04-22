@@ -15,7 +15,7 @@ header{
     background:radial-gradient(#D4AF37, black);
 }
 header h1{
-    font-size:40px;
+    font-size:50px;
 }
 header p{
     margin: 10px;
@@ -93,3 +93,19 @@ header p{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
+#top{
+    text-align:center ;
+    display :flex ;
+    font-size :26px ;
+    
+    justify-content: center ;
+    border :none ;
+    color: black ;
+    
+    border-radius :10px ;
+    text-decoration: none ;
+}
+#top:hover{
+    background: black ;
+    color: white ;
+}
